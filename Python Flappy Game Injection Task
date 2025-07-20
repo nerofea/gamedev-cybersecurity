@@ -1,0 +1,41 @@
+Game Injection Task (Beginner)
+
+Python – Flappy Bird Clone (Pygame)
+Repo: https://github.com/sourabhv/FlapPyBird
+
+Where to inject:
+ - Change gravity to simulate a cheat.
+ - Inject a new function at runtime using importlib.reload or monkey-patching.
+ - Hook into score logic to manipulate it.
+
+🎯 Goal: Learn how code injection and dependency manipulation works by analyzing and modifying a simple game.
+
+🕹️ Instructions
+
+1. Navigate into the `flap` folder and run the game.
+2. Find at least **3 places** in the game logic where you could:
+   - Modify the score or win condition
+   - Inject new logic during runtime
+   - Override functions to simulate cheating or logging
+3. Write your findings in `docs/injection_examples.md` with:
+   - What you changed
+   - What happened
+   - How it could be abused
+
+🧠 What You’ll Learn
+
+- Code injection
+- Dependency hijacking
+- Runtime manipulation
+- Security mindset
+
+✅ Bonus
+
+- Try to monkey-patch a function without modifying the original source.
+- Try intercepting logic from the command line or browser console (if JS).
+
+Why this exercise is good for you to learn: 
+- Clean Pygame implementation.
+- Easy to run and modify (python flappy.py).
+- Clear functions: score, gravity, collision, etc.
+
